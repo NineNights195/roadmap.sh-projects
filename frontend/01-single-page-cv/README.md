@@ -1,6 +1,6 @@
 # Single-Page CV
 
-A simple, single-page CV (Curriculum Vitae) with HTML. [Click here to view](https://ninenights195.github.io/single-page-cv/).
+A simple, single-page CV (Curriculum Vitae) with HTML.
 
 ## Requirements
 
