@@ -2,13 +2,13 @@
 
 A simple, single-page CV (Curriculum Vitae) with HTML. [Click here to view](https://ninenights195.github.io/single-page-cv/).
 
-## Page details
+## Requirements
 
-The page displays my **Career History**. However, since I am still a student and do not have any career history, I have included my achievements instead. The viewport is set for a responsive layout, and the page includes a 60-second meta refresh.
-
-## Plan for future
-
-- Styling the page with CSS
+- [ ] Semantically correct HTML structure.
+- [ ] Single-page layout with sections for education, skills, and career history.
+- [ ] SEO meta tags in the head section.
+- [ ] OG tags for better social media sharing.
+- [ ] A favicon linked in the head section.
 
 ---
 https://roadmap.sh/projects/single-page-cv
