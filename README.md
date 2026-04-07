@@ -1,7 +1,7 @@
 # roadmap.sh Projects
 
-This repository contains project ideas from [roadmap.sh](https://roadmap.sh/dashboard)
+This repository contains frontend project ideas from [roadmap.sh](https://roadmap.sh/frontend/projects)
 
 ## Project List
-- Single-Page CV
-- Basic HTML Website
+- [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+- [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
