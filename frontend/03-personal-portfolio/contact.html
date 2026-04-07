@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A simple, basic HTML website for roadmap.sh project">
+        <meta name="keywords" content="HTML, CSS, Portfolio, Web Development, roadmap.sh">
+        <meta name="author" content="Thanarat Ruengkum">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="/assets/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="/assets/favicon.ico" alt="Profile picture">
+                <h3>Thanarat Ruengkum</h3>
+                <a href="index.html">Homepage</a>
+                <a href="projects.html">Projects</a>
+                <a href="article.html">Article</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>Contact</h1>
+            </section>
+
+            <div>
+                <form action="mailbox.php" method="post">
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname" placeholder="Thanarat">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname" placeholder="Ruengkum">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="thanarat.ruengkum@gmail.com">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <input type="text" id="message" name="message" placeholder="Hello, I'd like to mail you">
+                    </div>
+                    <div>
+                        <input type="reset">
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+
+        </main>
+
+        <footer>
+            Author: Thanarat Ruengkum<br>
+            &copy; All Right Reserved 2026
+        </footer>
+    </body>
+</html>
