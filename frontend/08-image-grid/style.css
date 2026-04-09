@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 300px));
+    gap: 1rem;
+    grid-template-areas:
+    "box-1 box-2 box-3"
+    "box-1 box-5 box-3"
+    "box-4 box-5 box-6";
+}
+.grid-container img{
+    width: 100%;
+    height: auto;
+}

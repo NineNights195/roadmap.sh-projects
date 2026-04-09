@@ -10,3 +10,4 @@ This repository contains frontend project ideas from [roadmap.sh](https://roadma
 - [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
 - [Datapicker UI](https://roadmap.sh/projects/datepicker-ui) (Skipped)
 - [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)
+- [Image Grid Layout](https://roadmap.sh/projects/image-grid)
