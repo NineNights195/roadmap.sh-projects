@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accessible Form</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A simple, accessible HTML & CSS form UI featuring completeness progress, requirement checklist, and password visibility toggle.">
+        <meta name="keywords" content="Accessible Form, HTML, CSS, Progress Bar, Checklist, Password Toggle, Web Accessibility, Frontend Project">
+        <meta name="author" content="Thanarat Ruengkum">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="What should we call you?" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="input-error" type="email" id="email" name="email" placeholder="you@example.com" required>
+                    <span class="error-message">Email is already taken</span>
+                </div>
+                <div class="form-group password-container">
+                    <label for="pass">Enter Password</label>
+                    <div class="password-field">
+                        <input type="password" id="pass" name="pass" placeholder="xxxxxxxx" required minlength="8" autocomplete="new-password">
+                        <button class="password-toggle">
+                            <img src="/assets/show.png" width="16" height="16">
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group password-container">
+                    <label for="confirm-pass">Confirm Password</label>
+                    <div class="password-field">
+                        <input type="password" id="confirm-pass" name="confirm-pass" placeholder="xxxxxxxx" required autocomplete="new-password">
+                        <button class="password-toggle">
+                            <img src="/assets/show.png" width="16" height="16">
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="update-pf-btn">Update Profile</button>
+                </div>
+            </form>
+            <div class="completeness-container">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <span class="progress-percentage">65%</span>
+                </div>
+                <div class="requirement-container">
+                    <ul>
+                        <li class="finished">Create Account</li>
+                        <li class="finished">Update Roadmap Progress</li>
+                        <li class="finished">Setup Public Profile</li>
+                        <li class="">Complete your first project</li>
+                        <li class="">Invite Your Friends</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
