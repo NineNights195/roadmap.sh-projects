@@ -60,6 +60,8 @@ body{
     background-color: cornflowerblue;
     cursor: pointer;
 }
+
+/* Error Message */
 .error-message{
     color: red;
     font-size: small;
