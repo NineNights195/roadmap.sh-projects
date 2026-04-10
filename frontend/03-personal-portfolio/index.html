@@ -3,8 +3,8 @@
     <head>
         <title>Homepage</title>
         <meta charset="UTF-8">
-        <meta name="description" content="A simple, basic HTML website for roadmap.sh project">
-        <meta name="keywords" content="HTML, CSS, Portfolio, Web Development, roadmap.sh">
+        <meta name="description" content="Thanarat Ruengkum's personal portfolio - projects, articles, and work experience in web development.">
+        <meta name="keywords" content="Thanarat Ruengkum, Portfolio, Software Engineer, Projects, Web Development, Frontend, GitHub, HTML, CSS">
         <meta name="author" content="Thanarat Ruengkum">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/jpg" href="/assets/favicon.ico">
@@ -13,44 +13,109 @@
     <body>
         <header>
             <nav>
-                <img src="/assets/favicon.ico" alt="Profile picture">
-                <h3>Thanarat Ruengkum</h3>
-                <a href="index.html">Homepage</a>
-                <a href="projects.html">Projects</a>
-                <a href="article.html">Article</a>
-                <a href="contact.html">Contact</a>
+                <span class="navbar-title">
+                    <img src="/assets/images/profile.jpg" alt="Profile picture">
+                    <p>Thanarat Ruengkum</p>
+                </span>
+                <div>
+                    <a href="index.html">Homepage</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="article.html">Article</a>
+                    <a href="contact.html">Contact</a>
+                </div>
             </nav>
         </header>
 
         <main>
             <section class="hero">
                 <h1>Software Engineer</h1>
-                <p>Don't stop learning</p>
+                <p>Learning tech to get a job</p>
             </section>
 
-            <div>
-                <section>
-                    <h2>Projects</h2>
+            <div class="flex-wrapper">
+                <section class="projects">
+                    <h1>Projects</h1>
                     <ul>
-                        <li><a href="https://github.com/NineNights195/roadmap.sh-projects/tree/main/frontend/01-single-page-cv">Single-Page CV</a></li>
-                        <li><a href="https://github.com/NineNights195/roadmap.sh-projects/tree/main/frontend/02-basic-html-website">Basic HTML Website</a></li>
+                        <li>HTML Only Portfolio</li>
+                        <li>Calculator</li>
+                        <li>Quiz App</li>
+                        <li>Countdown Timer</li>
+                        <li>Product Upcoming Page</li>
                     </ul>
                 </section>
 
-                <section>
-                    <h2>Work Experience</h2>
-                    <h3>GitHub Repo</h3>
-                    Build and publish projects there. <a href="https://github.com/NineNights195">Visit my Profile.</a>
-                    <h3>roadmap.sh</h3>
-                    I follow my roadmap using this site. <a href="https://roadmap.sh/u/ninenights195">Visit my profile.</a>    
+                <section class="work-experience">
+                    <h1>Work Experience</h1>
+                    <div>
+                        <h2>roadmap.sh</h2>
+                        <p>Solved all the frontend projects.</p>
+                        <p><a href="https://roadmap.sh/u/ninenights195">Visit my profile.</a></p>
+                    </div>
+                    <div>
+                        <h2>OpenSource Work</h2>
+                        <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars. <a href="https://github.com/NineNights195">Visit my GitHub Stars.</a></p>   
+                    </div> 
                 </section>
 
-                <section>
-                    <h2>Educations</h2>
-                    Gradutated with 3.60 out of 4.00 CGPA. Quatified the national round in Coding Thailand 2025 completition.
+                <section class="education">
+                    <h1>Educations</h1>
+                    <p>Gradutated with 3.76 out of 4.00 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                    <p>Coursed I took:</p>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structure Algorithm</li>
+                        <li>Web Engineering</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Human Computer Interaction</li>
+                        <li>Computer Graphics</li>
+                        <li>Database Management System</li>
+                        <li>Distributied Database Systems</li>
+                        <li>Discreet Mathematics</li>
+                    </ul>
+                </section>
+
+                <section class="reviews">
+                    <h1>Reviews from my teachers</h1>
+                    <div class="testimodial-cards">
+                        <div class="cards">
+                            <p class="content">
+                                " Thanarat was a brilliant student; always stood out with his assingments. "
+                            </p>
+                            <div class="profile">
+                                <img src="/assets/user.png">
+                                <div class="profile-detail">
+                                    <h1>Jane Doe</h1>
+                                    <p>Assistant Professor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <p class="content">
+                                " Thanarat was a brilliant student; always stood out with his assingments. "
+                            </p>
+                            <div class="profile">
+                                <img src="/assets/user.png">
+                                <div class="profile-detail">
+                                    <h1>Jane Doe</h1>
+                                    <p>Assistant Professor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <p class="content">
+                                " Thanarat was a brilliant student; always stood out with his assingments. "
+                            </p>
+                            <div class="profile">
+                                <img src="/assets/user.png">
+                                <div class="profile-detail">
+                                    <h1>Jane Doe</h1>
+                                    <p>Assistant Professor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
-            
         </main>
 
         <footer>

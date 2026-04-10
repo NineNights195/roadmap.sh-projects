@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact</title>
+        <title>Homepage</title>
         <meta charset="UTF-8">
-        <meta name="description" content="A simple, basic HTML website for roadmap.sh project">
-        <meta name="keywords" content="HTML, CSS, Portfolio, Web Development, roadmap.sh">
+        <meta name="description" content="Thanarat Ruengkum's personal portfolio - projects, articles, and work experience in web development.">
+        <meta name="keywords" content="Thanarat Ruengkum, Portfolio, Software Engineer, Projects, Web Development, Frontend, GitHub, HTML, CSS">
         <meta name="author" content="Thanarat Ruengkum">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/jpg" href="/assets/favicon.ico">
@@ -13,12 +13,16 @@
     <body>
         <header>
             <nav>
-                <img src="/assets/favicon.ico" alt="Profile picture">
-                <h3>Thanarat Ruengkum</h3>
-                <a href="index.html">Homepage</a>
-                <a href="projects.html">Projects</a>
-                <a href="article.html">Article</a>
-                <a href="contact.html">Contact</a>
+                <span class="navbar-title">
+                    <img src="/assets/images/profile.jpg" alt="Profile picture">
+                    <p>Thanarat Ruengkum</p>
+                </span>
+                <div>
+                    <a href="index.html">Homepage</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="article.html">Article</a>
+                    <a href="contact.html">Contact</a>
+                </div>
             </nav>
         </header>
 
@@ -26,30 +30,31 @@
             <section class="hero">
                 <h1>Contact</h1>
             </section>
-
-            <div>
-                <form action="mailbox.php" method="post">
-                    <div>
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="fname" placeholder="Thanarat">
-                    </div>
-                    <div>
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lname" placeholder="Ruengkum">
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="thanarat.ruengkum@gmail.com">
-                    </div>
-                    <div>
-                        <label for="message">Message</label>
-                        <input type="text" id="message" name="message" placeholder="Hello, I'd like to mail you">
-                    </div>
-                    <div>
-                        <input type="reset">
-                        <input type="submit">
-                    </div>
-                </form>
+            <div class="flex-wrapper">
+                <section class="contact">
+                    <form action="#" method="post">
+                        <div>
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Thanarat">
+                        </div>
+                        <div>
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Ruengkum">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="thanarat.ruengkum@gmail.com">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <input type="text" id="message" name="message" placeholder="Hello, I'd like to mail you">
+                        </div>
+                        <div>
+                            <input type="reset">
+                            <input type="submit">
+                        </div>
+                    </form>
+                </section>
             </div>
 
         </main>
