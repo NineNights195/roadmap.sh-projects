@@ -1,8 +1,13 @@
 body{
     background-color: cornflowerblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
-.simple-tabs{
+.tabs{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,4 +31,10 @@ body{
 .tab-btn:hover {
     background-color: #ddd;
     color: #222;
+}
+.tab-content{
+    display: none;
+}
+.active{
+    display: contents;
 }
