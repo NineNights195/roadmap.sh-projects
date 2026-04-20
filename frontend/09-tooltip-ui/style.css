@@ -47,7 +47,6 @@ nav a:hover{
 }
 .tooltip:hover .tooltip-text,
 .tooltip:focus-within .tooltip-text {
-    opacity: 1;
     visibility: visible;
     transform: translateX(-50%);
 }
