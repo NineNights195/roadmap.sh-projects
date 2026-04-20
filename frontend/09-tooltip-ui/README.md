@@ -9,7 +9,7 @@ A simple tooltip for navigation items using only HTML and CSS.
 
 ## Requirements
 
-- [ ] Build a tooltip that appears above navigation items when hovered, using only HTML and CSS
+- [ x ] Build a tooltip that appears above navigation items when hovered, using only HTML and CSS
 
 ## Bonus Points
 
