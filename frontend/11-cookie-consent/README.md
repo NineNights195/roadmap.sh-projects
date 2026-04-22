@@ -8,8 +8,8 @@ A simple cookie consent banner using JavaScript.
 
 ## Requirements
 
-- [ x ] Create a simple cookie consent popup that appears when the user visits the page.
-- [ x ] The popup will include a message and a button to accept the consent. Once accepted, the popup will disappear.
+- [x] Create a simple cookie consent popup that appears when the user visits the page.
+- [x] The popup will include a message and a button to accept the consent. Once accepted, the popup will disappear.
 
 ---
 https://roadmap.sh/projects/cookie-consent

@@ -10,8 +10,8 @@ A simple grid layout images using HTML and CSS
 
 ## Requirements
 
-- [ x ] Provided with six images that need to be arranged in a grid pattern
-- [ x ] Responsive Design to adapts to different screen sizes
+- [x] Provided with six images that need to be arranged in a grid pattern
+- [x] Responsive Design to adapts to different screen sizes
 
 ---
 https://roadmap.sh/projects/image-grid

@@ -4,7 +4,7 @@ Simple testimonial card components. Testimonials are quotes or statements from s
 
 ## Requirements
 
-- [ x ] Create a bunch of testimonial cards in many style
+- [x] Create a bunch of testimonial cards in many style
 
 ---
 https://roadmap.sh/projects/testimonial-cards
