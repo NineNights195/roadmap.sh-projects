@@ -1,6 +1,6 @@
 # roadmap.sh Projects
 
-This repository contains frontend project ideas from [roadmap.sh](https://roadmap.sh/frontend/projects)
+This repository contains frontend and backend project ideas from [roadmap.sh](https://roadmap.sh/frontend/projects)
 
 ## Project List
 
