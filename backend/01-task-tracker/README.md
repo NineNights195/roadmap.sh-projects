@@ -72,7 +72,7 @@ Make sure to add these properties to the JSON file when adding a new task and up
 
 #### To-do list
 
-- [ ] Add, Update, and Delete tasks
+- [ x ] Add, Update, and Delete tasks
 - [ ] Mark a task as in progress or done
 - [ ] List all tasks
 - [ ] List all tasks that are done
