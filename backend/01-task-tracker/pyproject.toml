@@ -3,7 +3,7 @@ name = "task-cli"
 version = "0.1.0"
 description = "Task tracker CLI app that track your tasks and manage to-do list"
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Thanarat Ruengkum",email = "thanarat.ruengkum@gmail.com"}
 ]
 license = "MIT"
 readme = "README.md"
