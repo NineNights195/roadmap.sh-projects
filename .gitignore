@@ -1,3 +1,6 @@
 # Virtual Env and pycache from Python's backend
 .venv
 __pycache__
+
+# Backend projects
+tasks.json
