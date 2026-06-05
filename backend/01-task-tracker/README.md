@@ -1,7 +1,5 @@
 # Task Tracker
 
-> **NOT FINISHED**
-
 A simple CLI app to track your tasks and manage your to-do list.
 
 ## Getting Started
