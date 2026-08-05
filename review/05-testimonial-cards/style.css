@@ -1,6 +1,9 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.testimonial-card-1{
+    width: fit-content;
+}
 .testimonial-card-1 .speech-bubble{
     border: solid black 2px;
     padding: 1rem;
@@ -8,16 +11,39 @@ body{
     background-color: black;
     color: white;
     width: fit-content;
-    max-width: 24rem;
+    max-width: 18rem;
     font-weight: 200;
-    font-size: x-large;
+    font-size: large;
     position: relative;
 }
-.speech-bubble::after{
+.speech-bubble::after {
     content: '';
     position: absolute;
+    left: 2.5rem;
+    transform: translateX(-50%);
+    bottom: -17px;
+    width: 0;
+    height: 0;
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
     border-top: 16px solid black;
-    bottom: -18px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.profile img{
+    min-width: 5rem;
+    max-width: 5rem;
+}
+.profile-detail{
+    margin-left: 1rem;
+}
+.profile-detail h1{
+    margin-bottom: 0;
+    font-size: larger;
+}
+.profile-detail p{
+    margin-top: 0;
 }
