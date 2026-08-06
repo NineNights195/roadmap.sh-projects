@@ -4,7 +4,7 @@ body{
     flex-wrap: wrap;
     gap: 1rem;
 }
-.testimonial-card-1, .testimonial-card-2, .testimonial-card-3{
+.testimonial-card-1, .testimonial-card-2, .testimonial-card-3, .testimonial-card-4{
     width: fit-content;
     height: fit-content;
 }
@@ -16,8 +16,8 @@ body{
     margin-top: 1.5rem;
 }
 .profile img{
-    min-width: 5rem;
-    max-width: 5rem;
+    width: 5rem;
+    height: 5rem;
 }
 .profile-detail{
     margin-left: 1rem;
@@ -64,8 +64,8 @@ body{
     max-width: 16rem;
 }
 .testimonial-card-2 .profile img{
-    min-width: 4rem;
-    max-width: 4rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 /* Testimonial Card 3 */
@@ -101,4 +101,39 @@ body{
 }
 .testimonial-content .quote{
     font-size: larger;
+}
+
+/* Testimonial card 4 */
+.testimonial-card-4{
+    max-width: 28rem;
+    border: black solid 2px;
+    border-radius: 15px;
+    padding: 1.5rem 3rem;
+}
+.testimonial-card-4 .quote{
+    font-weight: 400;
+    text-align: center;
+}
+.testimonial-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.profile-unfocused{
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+}
+.profile-focused{
+    width: 3rem;
+    height: 3rem;
+}
+.testimonial-card-4 .profile-name{
+    display: flex;
+    justify-content: center;
+}
+.profile-name p{
+    margin: 0.5rem;
 }
