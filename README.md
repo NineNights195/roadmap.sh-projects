@@ -23,3 +23,6 @@ This repository contains frontend and backend project ideas from [roadmap.sh](ht
 ### Backend Projects
 
 - [Task Tracker](https://roadmap.sh/projects/task-tracker)
+
+### JavaScript Projects
+- [Greeting Builder](https://roadmap.sh/projects/js-greeting-builder)
