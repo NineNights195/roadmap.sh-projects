@@ -26,3 +26,4 @@ This repository contains frontend and backend project ideas from [roadmap.sh](ht
 
 ### JavaScript Projects
 - [Greeting Builder](https://roadmap.sh/projects/js-greeting-builder)
+- [Temperature Converter](https://roadmap.sh/projects/js-temperature-converter)
