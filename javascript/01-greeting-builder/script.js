@@ -1,5 +1,5 @@
-const formatName = (firstName, lastName) => {return firstName + " " + lastName};
-const getGreeting = (timeOfDay) => {return "Good " + timeOfDay};
+const formatName = (firstName, lastName) => {return `${firstName} ${lastName}`};
+const getGreeting = (timeOfDay) => {return `Good ${timeOfDay}`};
 const createGreeting = (firstName, lastName, timeOfDay) => {
     return getGreeting(timeOfDay) + ", " + formatName(firstName, lastName);
 };
