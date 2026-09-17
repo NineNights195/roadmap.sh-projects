@@ -29,3 +29,4 @@ This repository contains frontend and backend project ideas from [roadmap.sh](ht
 - [Temperature Converter](https://roadmap.sh/projects/js-temperature-converter)
 - [Number Checker](https://roadmap.sh/projects/js-number-checker)
 - [String Formatter](https://roadmap.sh/projects/js-string-formatter)
+- [Price Calculator](https://roadmap.sh/projects/js-price-calculator)
