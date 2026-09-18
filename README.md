@@ -30,3 +30,4 @@ This repository contains frontend and backend project ideas from [roadmap.sh](ht
 - [Number Checker](https://roadmap.sh/projects/js-number-checker)
 - [String Formatter](https://roadmap.sh/projects/js-string-formatter)
 - [Price Calculator](https://roadmap.sh/projects/js-price-calculator)
+- [Cart Total Calculator](https://roadmap.sh/projects/js-cart-total-calculator)
