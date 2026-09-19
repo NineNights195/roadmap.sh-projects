@@ -32,3 +32,4 @@ This repository contains frontend and backend project ideas from [roadmap.sh](ht
 - [Price Calculator](https://roadmap.sh/projects/js-price-calculator)
 - [Cart Total Calculator](https://roadmap.sh/projects/js-cart-total-calculator)
 - [Grade Report Generator](https://roadmap.sh/projects/js-grade-report-generator)
+- [Task List Utilities](https://roadmap.sh/projects/js-task-list-utilities)
