@@ -5,7 +5,7 @@ A temperature widget needs two conversion helpers and one formatting helper. Kee
 Write these functions:
 - `celsiusToFahrenheit(celsius)` should convert Celsius to Fahrenheit and return the number.
 - `fahrenheitToCelsius(fahrenheit)` should convert Fahrenheit to Celsius and return the number.
-- `formatTemperature(value, unit)` should return display text such as "77 F" or "20 C".
+- `formatTemperature(value, unit)` should return display text such as `"77 F"` or `"20 C"`.
 
 Sample checks:
 ```js
@@ -27,7 +27,7 @@ Expected output:
 0 C
 ```
 
-The conversion functions should return numbers. formatTemperature should return the final string.
+The conversion functions should return numbers. `formatTemperature` should return the final string.
 
 ---
 https://roadmap.sh/projects/js-temperature-converter
