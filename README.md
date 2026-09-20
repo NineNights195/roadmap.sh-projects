@@ -34,3 +34,4 @@ This repository contains frontend and backend project ideas from [roadmap.sh](ht
 - [Grade Report Generator](https://roadmap.sh/projects/js-grade-report-generator)
 - [Task List Utilities](https://roadmap.sh/projects/js-task-list-utilities)
 - [Expense Summary](https://roadmap.sh/projects/js-expense-summary) (Skipped)
+- [Product Search and Filter](https://roadmap.sh/projects/js-product-search-and-filter)
